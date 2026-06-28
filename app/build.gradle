@@ -1,0 +1,40 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.example.tuner432'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.tuner432"
+        minSdk 23
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release { minifyEnabled false }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions { jvmTarget = '17' }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.activity:activity-ktx:1.8.2'
+
+    // ExoPlayer (Media3) - odtwarzanie plików, radia + wbudowany pitch (432 Hz)
+    implementation 'androidx.media3:media3-exoplayer:1.3.1'
+    implementation 'androidx.media3:media3-exoplayer-hls:1.3.1'   // stacje w formacie .m3u8
+    implementation 'androidx.media3:media3-common:1.3.1'
+    implementation 'androidx.media3:media3-session:1.3.1'
+    implementation 'io.coil-kt:coil:2.6.0'
+}

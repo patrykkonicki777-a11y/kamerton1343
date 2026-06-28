@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="14dp"
+    android:paddingBottom="14dp"
+    android:paddingStart="14dp"
+    android:paddingEnd="14dp"
+    android:textColor="#F7F2E7"
+    android:textSize="15sp"
+    android:background="?android:attr/selectableItemBackground"
+    android:drawableEnd="@android:drawable/ic_input_add"
+    android:drawableTint="#E7C77B"
+    android:gravity="center_vertical" />

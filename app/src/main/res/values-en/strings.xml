@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kamerton 432</string>
+    <string name="subtitle">440 Hz \u2192 432 Hz</string>
+    <string name="tab_favorites">FAVORITES</string>
+    <string name="tab_search">SEARCH</string>
+    <string name="now_playing">NOW PLAYING</string>
+    <string name="convert_432">432 Hz conversion</string>
+    <string name="search_hint">Type station name (worldwide)\u2026</string>
+    <string name="search_button">Search</string>
+    <string name="searching">Searching\u2026</string>
+    <string name="no_results">No results</string>
+    <string name="search_help">Tap a result to add to favorites</string>
+    <string name="added">Added to favorites</string>
+    <string name="already">Already in favorites</string>
+    <string name="status_favorites">Pick a station and \u25B6</string>
+    <string name="status_search">Type keywords and press Search</string>
+    <string name="buffering">Buffering\u2026</string>
+    <string name="stopped">Stopped.</string>
+    <string name="unavailable">Station unavailable</string>
+    <string name="playing_on">Playing @ 432 Hz</string>
+    <string name="playing_off">Playing @ 440 Hz (original)</string>
+    <string name="reconnecting">Reconnecting…</string>
+    <string name="removed">Removed: %1$s</string>
+    <string name="db_source">Database: radio-browser.info</string>
+    <string name="add_to_db">Missing your station? Add it to radio-browser.info →</string>
+</resources>
